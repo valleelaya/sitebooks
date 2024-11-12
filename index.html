@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alurabooks</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<header class="cabeçalho">
+    <div class="container">
+        <input type="checkbox" id="menu" class="container__botao">
+        <label for="menu">
+      <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+    </label>
+    <ul class="lista-menu">
+        <li class="lista-menu__título" >Categorias</li>
+        <li class="lista-menu__item">
+            <a href="a" class="lista-menu__link">Programaçâo</a>
+        </li>
+        <li class="lista-menu__item">
+            <a href="a" class="lista-menu__link">Front-end</a>
+        </li>
+        <li class="lista-menu__item">
+            <a href="a" class="lista-menu__link">infraestrutura</a>
+        </li>
+        <li class="lista-menu__item">
+            <a href="a" class="lista-menu__link">Business</a>
+        </li>
+        <li class="lista-menu__item">
+            <a href="a" class="lista-menu__link">Desing & ux</a>
+        </li>
+    </ul>
+      <img src="" alt="Logo da alurabooks" class="container__imagem">
+    </div>
+<div class="container">
+   <a href="a"><img src="" alt="Meus favoritos" class="container__imagem"></a>
+   <a href="a"><img src="" alt="Carrinho de compras" class="container__imagem"></a>
+   <a href="a"><img src="" alt="Usuario" class="container__imagem"></a>
+</div>
+   </header>
+   <section class="banner">
+      <h2 class="banner__título"> Já sabe por onde começar?</h2>
+      <p class = "banner__texto"> Encontre em nossa estante o que precisa para seu desenvolvimento!
+<input type="search" class="banner__pesquisa" placeholder=" Qual será sua próxima leitura?">
+   <section class="carrossel">
+    <h2 class="carrossel__título">Novos lançamentos   </h2>
+    <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+     <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">Slide 1 <img src="img/c:\Users\emesc\Downloads\0ef185f252ac0f6f7fd0f44af475ea29.svg" alt="Um experimento em critica literaria"></div>
+      <div class="swiper-slide">Slide 2 <img src="img/c:\Users\emesc\Downloads\8c1dacc354e61eae9c59138299dec5f3.svg" alt="O assunto do Ceu"></div>
+      <div class="swiper-slide">Slide 3 <img src="img/c:\Users\emesc\Downloads\70c814340cea6bb7223815a61b43fafc.svg" alt="A ultima noite do mundo"></div>
+      <div class="swiper-slide">Slide 4 <img src="img/c:\Users\emesc\Downloads\92b4114445de50481cf9aaa1e6047455.svg" alt="O peso da glória"></div>
+      <div class="swiper-slide">Slide 5 <img src="img/c:\Users\emesc\Downloads\d881bed6f3e34e3013ec16ad1db9ec86.svg" alt="Cristianismo puro e simples"></div>
+      <div class="swiper-slide">Slide 6 <img src="img/c:\Users\emesc\Downloads\f01d7a24ceb13ff838182f45305220c7.svg" alt="Os quatro amores"></div>
+      
+    </div>
+    
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
+  <div class="card">
+     <!-- 1° Linha -->
+    <div class="card__descrição"> 
+        <!-- 1° coluna--> 
+        <div class = "descrição">
+            <h3 class="descrição__título">Talvez você Também se interesse por ...</h3>
+            <h2 class="descrição__título-livro">Angular 11 e Firebase</h2>
+            <p class="descrição__texto">Construindo uma aplicação integrada com a plataforma do Google</p>
+        </div>
+        <!--2° coluna -->
+        <img  src="" class="descrição__imagem">
+     </div>
+     <!--2° Linha -->
+
+     <div class ="card__botões">
+         <!--1° Coluna -->
+         <ul class="botões">
+            <li class="botões__item"><img sre="img/Fovoritos.svg> alt= "Favoritar livro" ></li>
+            <li class="botões__item"><img sre="img/Compras.svg> alt= "Adicionar no carrinho de compras"></li>
+         </ul>
+          <!--2° Coluna -->
+          <a href="e" class="botões__ancora"> Saiba mais</a>
+     </div>
+  </div>
+
+   </section>
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+  spaceBetween: 10,
+  slidesPerView: 3,
+  pagination:{
+    el:'.swiper-pagination',
+    type: 'billets',
+  }
+});
+  </script>
+</body>
+</html>

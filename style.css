@@ -1,0 +1,17 @@
+@import url("style/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+
+:root{
+   --cor-de-fundo: #a09494;
+   --branco: #FFFFFF;
+   --laranja: #ff6600; 
+   --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%)
+   --fonte-principal: "Popping";
+}
+body{
+background-color: var(--cor-de-fundo) ;
+font-family: var(--fonte-principal) ;
+font-size: 16px;
+font-weight: 400;
+}
